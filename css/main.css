@@ -3,7 +3,6 @@
 
 .navbar {
   margin-bottom: 0;
-  color:darkblue;
 }
 
 /* CUSTOMIZED CAROUSEL
@@ -92,3 +91,16 @@ footer {
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
+/*Styling
+---------------------------------------------------*/
+.header {
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+}
+.paragraph {
+  font-family: 'Rubik', sans-serif;
+  font-size: 25px;
+}
+.inside-c {
+  color: white;
+}
