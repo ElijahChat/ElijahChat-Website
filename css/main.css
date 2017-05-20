@@ -57,7 +57,7 @@
 .marketing .col-md-4 .glyphicon {
   font-size: 60px;
   background-color: powderblue;
-  border-radius: 50%;
+  border-radius: 40%;
   padding: 40px;
   color: black;
 }
@@ -93,14 +93,34 @@ footer {
 -------------------------------------------------- */
 /*Styling
 ---------------------------------------------------*/
+#dollardest {
+  font-family: "Space Mono", monospace;
+  color: violet;
+}
 .header {
   text-align: center;
   font-family: 'Comfortaa', cursive;
+  font-size: 35px;
 }
 .paragraph {
   font-family: 'Rubik', sans-serif;
-  font-size: 25px;
+  font-size: 20px;
 }
 .inside-c {
   color: white;
+}
+.list {
+  font-family: 'Rubik', sans-serif;
+}
+.navelement {
+  font-size: 22px;
+  font-family: 'Comfortaa', cursive;
+  color: navy;
+}
+.top {
+  background-color: #01064f;
+  width: 100%;
+  position: absolute;
+  border-bottom: black 5px;
+  color: lightgray;
 }
