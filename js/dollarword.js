@@ -1,3 +1,4 @@
+
 function dollarWord() {
   var word = $('#dollar').val();
   var alphabet = "abcdefghijklmnopqrstuvwxyz";
@@ -22,7 +23,7 @@ function dollarWord() {
   return worth;
 }
 $(function() {
-  $('#dollar').on('submit', function(){
-    $('#dollardest').text(dollarWord());
+  $('#dollar').on('keyup', function(){
+    $('#dollarDest').text(dollarWord());
   });
 });
