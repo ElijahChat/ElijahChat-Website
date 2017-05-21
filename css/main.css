@@ -96,11 +96,15 @@ footer {
 #dollarDest {
   font-family: "Space Mono", monospace;
   color: purple;
+  text-align: justify;
 }
 .header {
   text-align: center;
   font-family: 'Comfortaa', cursive;
   font-size: 35px;
+}
+.subheader {
+  font-family: 'Comfortaa', cursive;
 }
 .paragraph {
   font-family: 'Rubik', sans-serif;
@@ -123,4 +127,7 @@ footer {
   position: absolute;
   border-bottom: black 5px;
   color: lightgray;
+}
+.p-caption {
+  border-right: black 10px;
 }
