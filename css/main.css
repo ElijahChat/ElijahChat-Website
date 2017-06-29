@@ -91,6 +91,9 @@ footer {
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
+.carousel-control:hover {
+  color: #303c51;
+}
 /*Styling
 ---------------------------------------------------*/
 #dollarDest {
@@ -98,10 +101,16 @@ footer {
   color: purple;
   text-align: justify;
 }
+.carousel-control {
+  transition: all .5s;
+}
 .header {
   text-align: center;
   font-family: 'Comfortaa', cursive;
   font-size: 35px;
+}
+.navelement {
+  color: navy;
 }
 .subheader {
   font-family: 'Comfortaa', cursive;
