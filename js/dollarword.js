@@ -23,9 +23,6 @@ function dollarWord() {
   return worth;
 }
 $(function() {
-  var isBoring = false;
-  var blah = isBoring ? "This is so boring." : "This is fun!";
-  console.log(blah);
   $('#dollar').on('keyup', function(){
     $('#dollarDest').text(dollarWord());
   });
